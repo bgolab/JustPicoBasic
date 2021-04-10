@@ -1,1 +1,1 @@
-JustBasic is BASIC interpreter for Raspberry PI PICO RP2040
+JustBasic is a BASIC interpreter for Raspberry PI PICO RP2040
