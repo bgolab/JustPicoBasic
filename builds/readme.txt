@@ -2,6 +2,7 @@ PICO builds release notes:
 
 1.0b11 - first published beta build for PICO RP2040
 - feature list covered by v1.1 manual
+- major issues / missing features: load / save not supported yet; graphic features not supported yet; 
 
 
 NOTES:
