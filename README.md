@@ -26,5 +26,18 @@ Blinky example
 
 	end
 
+General example
+===============
+	PRINT "IF/THEN/ELSE/ENDIF"
+	a=0
+	WHILE a <= 10
+		IF a%2 = 1 THEN 
+			PRINT "odd" 
+			PRINT a 
+		ELSE 
+			PRINT "even ", a 
+		ENDIF
+		a=a+1
+	ENDWHILE
 ---
 Bogdan Golab
