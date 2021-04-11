@@ -10,7 +10,7 @@ State of work:
 - internal stuff will be improved to reduce the interpreter cycle time (some perf test were done - perf.txt, empty integer FOR-loop cycle is less than 4 usec now) - since no optimisation was applied so far it is expected to get better perf numbers
 - some hardware related examples / features are targetted for Promoni Explorer Base board (buttons, graphic, etc), later other displays will be supported
 - it is assumed that POKE / PEEK will be used to address missing hardware features (the PICO examples show how to use systick timer) - NOTE: PEEK / POKE were not heavily tested - use them at your own RISK
-- aimed to support most BASIC features in modern way: INT / FLOAT / STRING, arrays (now single dimension for INT / FLOAT), GOSUB & GOTO to use labels instead of line numbers, FOR / NEXT & WHILE loops and IF / THEN / ELSE / ENDIF with nesting, DATA / READ, build-in command tracing, built-in editor, flexible code formatting (non line oriented, many build in functions, 
+- aimed to support most BASIC features in modern way: INT / FLOAT / STRING, arrays (now single dimension for INT / FLOAT), GOSUB & GOTO to use labels instead of line numbers, FOR / NEXT & WHILE loops and IF / THEN / ELSE / ENDIF with nesting, DATA / READ, PAYSE / GETTICK, complex expressions; build-in command tracing, built-in editor, flexible code formatting (non line oriented, many build in functions, and many others
 
 Blinky example
 ==============
