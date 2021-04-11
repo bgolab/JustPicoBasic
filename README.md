@@ -14,13 +14,21 @@ State of work:
 Blinky example
 ==============
 REM Led-pin 25
+
 pmode 25, 1
+
 for k=1 to 10 step 0
+
 	pause 500
+	
 	dwrite 25,1
+	
 	pause 500
+	
 	dwrite 25,0
+	
 next k
+
 end
 
 ---
