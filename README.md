@@ -1,6 +1,8 @@
 JustPicoBasic, a BASIC interpreter for Raspberry PI PICO RP2040
 =============================================================
 
+NOTE: Originally the project was named 'JustBasic' but it looks like this name is not unique so renamed it to 'JustPicoBasic'. At least for now;)
+
 State of work:
 - the project is targetted for both PICO and Windows (used mostly as development platform now)
 - the supported features are described in the manual folder; relevant examples can be found in examples folder
