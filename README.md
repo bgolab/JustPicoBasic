@@ -1,5 +1,7 @@
 JustBasic is a BASIC interpreter for Raspberry PI PICO RP2040
 
+Inspired by Sinclair BASIC I used on my first ZX Spectrum personal computer.
+
 State of work:
 - although most features are already developed the project is considered a beta stage (reflected in binary names suffix: bxx)
 - the project is targetted for both Windows and PICO (Windows is used mostly as development platform now)
