@@ -3,9 +3,8 @@ JustBasic is a BASIC interpreter for Raspberry PI PICO RP2040
 Inspired by Sinclair BASIC I used on my first ZX Spectrum personal computer.
 
 State of work:
-- although most features are already developed the project is considered a beta stage
-- the project is targetted for both Windows and PICO (Windows is used mostly as development platform now)
-- the supported features are described in the manual and relevant examples are shown in *.bas files (those with PICO suffixes are targetted for real PICO hardware, others are both for WINDOWS & PICO releases)
+- the project is targetted for both PICO and Windows (used mostly as development platform now)
+- the supported features are described in the manual and relevant examples can be found in examples folder
 - the code for the PICO board is compiled with 'no_flash' option so to test the code no flashing is required - just drag & drop the code to the PICO emulated disk, start the putty terminal and press enter
 - some hardware related examples / features are targetted for Promoni Explorer Base board (buttons, graphic, etc), later other displays will be supported
 - it is assumed that POKE / PEEK will be used to address missing hardware features (the PICO examples show how to use systick timer) - NOTE: PEEK / POKE were not heavily tested - use them at your own RISK
