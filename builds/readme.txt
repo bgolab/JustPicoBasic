@@ -13,8 +13,8 @@ NOTE:
 
 TODO list:
 - load / save not supported yet; 
+- multidimentional arrays + string arrays
 - graphic features not supported yet; 
 - i2c / spi, adc (not sure if the hw quality of the RP2040 is ok)
-
 NOTE: it is assumed that POKE / PEEK will be used to address missing hardware features (see systick example)
 BUT: PEEK / POKE were not heavily tested - use them at your own RISK
