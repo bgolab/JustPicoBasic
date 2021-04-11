@@ -5,7 +5,7 @@ State of work:
 - the project is targetted for both PICO and Windows (used mostly as development platform now)
 - the supported features are described in the manual folder; relevant examples can be found in examples folder
 - the binary for PICO is compiled with 'no_flash' flag - just drag & drop the uf2 file, start putty and press enter
-- aimed to support most BASIC features in modern way: INT / FLOAT / STRING, arrays (now single dimension for INT / FLOAT), GOSUB & GOTO to use labels instead of line numbers, FOR / NEXT & WHILE loops and IF / THEN / ELSE / ENDIF with nesting, DATA / READ, PAUSE / GETTICK, complex expressions; complex logical expressions, build-in command tracing, built-in editor, flexible code formatting (non line oriented), many build in functions including string processing, and many others
+- aimed to support most BASIC features in modern way: INT / FLOAT / STRING, arrays (now single dimension for INT / FLOAT), GOSUB & GOTO to use labels instead of line numbers, FOR / NEXT & WHILE loops and IF / THEN / ELSE / ENDIF with nesting, DATA / READ, PAUSE / GETTICK, complex expressions; complex logical expressions, build-in command tracing, built-in editor, flexible code formatting (non line oriented, no required python-like), many build in functions including string processing, and many others
 
 Blinky example
 ==============
@@ -40,5 +40,14 @@ General example
 		ENDIF
 		a=a+1
 	ENDWHILE
+	END
 ---
+Flexible code format
+====================
+	m=3 data 2, 3, 4 
+	sum=0 
+	for i=1 to m read a sum=sum+a next i 
+	print "s=", sum 
+	end
+
 Bogdan Golab
