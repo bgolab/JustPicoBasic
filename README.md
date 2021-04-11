@@ -5,7 +5,7 @@ Originally the project was named 'JustBasic' but it looks like this name is not 
 
 - the project is targetted for both PICO and Windows (used mostly as development platform now)
 - the binary for PICO is compiled with 'no_flash' flag - just drag & drop the uf2 file, start putty and press enter
-- aimed to support most BASIC features in modern way: INT / FLOAT / STRING, arrays, GOSUB & GOTO to use labels instead of line numbers, FOR / NEXT & WHILE loops and IF / THEN / ELSE / ENDIF, DATA / READ, PAUSE / GETTICK, complex expressions and logical expressions, build-in command tracing, built-in editor, flexible code formatting (non line oriented), many build in functions including string processing, and many others
+- aimed to support most BASIC features in modern way: INT / FLOAT / STRING, arrays, GOSUB & GOTO to use labels instead of line numbers, FOR / NEXT & WHILE loops and IF / THEN / ELSE / ENDIF, DATA / READ, PAUSE / GETTICK, complex math & logical expressions, build-in command tracing, built-in editor, flexible code formatting (non line oriented), many build in functions including string processing, and many others
 
 Blinky example
 ==============
