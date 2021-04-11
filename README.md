@@ -11,4 +11,17 @@ State of work:
 - some hardware related examples / features are targetted for Promoni Explorer Base board (buttons, graphic, etc), later other displays will be supported
 - it is assumed that POKE / PEEK will be used to address missing hardware features (the PICO examples show how to use systick timer) - NOTE: PEEK / POKE were not heavily tested - use them at your own RISK
 
+Blinky example
+==============
+REM Led-pin 25
+pmode 25, 1
+for k=1 to 10 step 0
+	pause 500
+	dwrite 25,1
+	pause 500
+	dwrite 25,0
+next k
+end
+
+---
 Bogdan Golab
