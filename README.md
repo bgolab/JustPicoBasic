@@ -1,4 +1,4 @@
-JustPicoBasic, a BASIC interpreter for Raspberry PI PICO RP2040
+JustPicoBasic, a BASIC for Raspberry PI PICO RP2040
 =============================================================
 
 Originally the project was named 'JustBasic' but it looks like this name is not unique so renamed it to 'JustPicoBasic'. At least for now;)
