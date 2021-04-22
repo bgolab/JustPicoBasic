@@ -50,5 +50,15 @@ Flexible code format
 	print "sum=", sum 
 	end
 
+OLED 0.91" SINE
+==============
+lcls
+sineno=1
+for x=0 to 127
+	plot x,fix(15+15*sin(2*3.14159*x/128))
+next x
+lref
+end
+
 ---
 Bogdan Golab
