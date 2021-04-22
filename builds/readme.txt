@@ -7,7 +7,7 @@ NOTE:
 
 
 1.0b11 - first published beta build for PICO RP2040
-- feature list covered by v1.1xmanual
+- feature list covered by v1.1x manual
 
 1.0b17 - still beta release
 - bug fixes + refactoring
