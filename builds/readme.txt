@@ -13,7 +13,7 @@ BUILDS:
 
 1.0b18 - still beta release
 - refactoring for performance
-- fixed TeraTerm backspace problem (now both putty & teraterm supported)
+- fixed: TeraTerm backspace problem (now both putty & teraterm supported), div by 0 crash (yes, it's true)
 - SM OLED control implemented
 
 1.0b17 - still beta release
