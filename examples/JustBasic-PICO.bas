@@ -63,5 +63,13 @@ Press ESC to break!
 124043
 115168
 -------------------------
-
+REM OLED SINE
+sm oled 1
+lcls
+sineno=1
+for x=0 to 127
+	plot x,fix(15+15*sin(2*3.14159*x/128))
+next x
+lref
+end
 
