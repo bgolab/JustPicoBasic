@@ -1,7 +1,7 @@
 JustPicoBasic, a BASIC for Raspberry PI PICO RP2040
-=============================================================
+===================================================
 
-Originally the project was named 'JustBasic' but it looks like this name is not unique so renamed it to 'JustPicoBasic'. At least for now;)
+'JustPicoBasic': a BASIC interpreter:
 
 - the project is targetted for both PICO and Windows (used mostly as development platform now)
 - the binary for PICO is compiled with 'no_flash' flag - just drag & drop the uf2 file, start putty and press enter
