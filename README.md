@@ -5,7 +5,7 @@ Features:
 
 - targetted for both PICO and Windows (used mostly as development platform now)
 - PICO binary is compiled with 'no_flash' flag - to start just drag & drop the uf2 file to the PICO disk, open putty or teraterm and press enter
-- BASIC language in modern way: INT / FLOAT / STRING, arrays, GOSUB & GOTO use labels, FOR / NEXT, WHILE, IF / THEN / ELSE / ENDIF, DATA / READ, PAUSE / GETTICK, math & logical expressions, build-in command tracing, built-in editor, flexible code formatting (non line oriented), many build in functions including string processing, etc
+- BASIC language: INT / FLOAT / STRING, arrays, GOSUB & GOTO use labels, FOR / NEXT, WHILE, IF / THEN / ELSE / ENDIF, DATA / READ, PAUSE / GETTICK, math & logical expressions, build-in command tracing, built-in editor, flexible code formatting (non line oriented), many build in functions including string processing, etc
 - hardware support: some OLED modules and Pimoroni Pico Explorer Base (LCD, buttons, piezo)
 
 Wiring
