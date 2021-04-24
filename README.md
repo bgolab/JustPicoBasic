@@ -3,9 +3,9 @@ JustPicoBasic, a BASIC for Raspberry PI PICO RP2040
 
 Features:
 
-- the project is targetted for both PICO and Windows (used mostly as development platform now)
-- the binary for PICO is compiled with 'no_flash' flag - just drag & drop the uf2 file, start putty and press enter
-- aimed to support BASIC features in modern way: INT / FLOAT / STRING, arrays, GOSUB & GOTO to use labels instead of line numbers, FOR / NEXT, WHILE, IF / THEN / ELSE / ENDIF, DATA / READ, PAUSE / GETTICK, math & logical expressions, build-in command tracing, built-in editor, flexible code formatting (non line oriented), many build in functions including string processing, etc
+- targetted for both PICO and Windows (used mostly as development platform now)
+- the binary for PICO is compiled with 'no_flash' flag - to start just drag & drop the uf2 file to the PICO disk, open putty or teraterm and press enter
+- support BASIC language in modern way: INT / FLOAT / STRING, arrays, GOSUB & GOTO use labels instead of line numbers, FOR / NEXT, WHILE, IF / THEN / ELSE / ENDIF, DATA / READ, PAUSE / GETTICK, math & logical expressions, build-in command tracing, built-in editor, flexible code formatting (non line oriented), many build in functions including string processing, etc
 - aimed to support some OLED modules and Pimoroni Pico Explorer Base (LCD, buttons, piezo)
 
 Wiring
