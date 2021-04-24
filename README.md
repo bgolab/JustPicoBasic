@@ -12,8 +12,8 @@ Wiring
 ======
 ![alt text](https://github.com/bgolab/JustBasic/blob/main/manuals/wiring.jpg)
 
-Blinky example
-==============
+Blinky
+=====
 	REM Led-pin 25
 
 	pmode 25, 1
@@ -32,8 +32,8 @@ Blinky example
 
 	end
 
-General example
-===============
+Loops & IFs
+===========
 	PRINT "IF/THEN/ELSE/ENDIF"
 	a=0
 	WHILE a <= 10
