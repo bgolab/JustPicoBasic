@@ -8,6 +8,10 @@ Features:
 - aimed to support BASIC features in modern way: INT / FLOAT / STRING, arrays, GOSUB & GOTO to use labels instead of line numbers, FOR / NEXT, WHILE, IF / THEN / ELSE / ENDIF, DATA / READ, PAUSE / GETTICK, math & logical expressions, build-in command tracing, built-in editor, flexible code formatting (non line oriented), many build in functions including string processing, etc
 - aimed to support some OLED modules and Pimoroni Pico Explorer Base (LCD, buttons, piezo)
 
+Wiring
+======
+![alt text](https://github.com/bgolab/JustBasic/blob/main/manuals/wiring.jpg)
+
 Blinky example
 ==============
 	REM Led-pin 25
