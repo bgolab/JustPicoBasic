@@ -8,12 +8,18 @@ NOTE3: it is assumed that POKE / PEEK will be used to address missing hw feature
 
 BUILDS
 ------
-1.0b18 - still beta release
+1.0b19 - beta release
+- error handling improved
+- tracing T1/T2 improved
+- SM LN control implemented
+- AREAD (ADC) / AWRITE (PWM), DREAD / DWRITE commands
+
+1.0b18 - beta release
 - refactoring for performance
 - fixed: TeraTerm backspace problem (now both putty & teraterm supported), div by 0 crash (yes, it's true)
 - SM OLED control implemented
 
-1.0b17 - still beta release
+1.0b17 - beta release
 - bug fixes + refactoring
 - OLED 0.91" 128x32 support (PLOT, DRAW, CIRCLE, LPRINT, LCLS, LREF
 - INT / FIX commands
