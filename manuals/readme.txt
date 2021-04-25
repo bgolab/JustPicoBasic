@@ -1,1 +1,1 @@
-See example folder for examples
+See also example folder for examples
