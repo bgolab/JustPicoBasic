@@ -32,6 +32,13 @@ Blinky
 
 	end
 
+Built-in temperature sensor
+===========================
+	TSENSOR=20
+	pmode 100, TSENSOR
+	for k=1 to 10 print aread(100) pause 500 next k
+	end
+
 Loops & IFs
 ===========
 	PRINT "IF/THEN/ELSE/ENDIF"
