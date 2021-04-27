@@ -2,7 +2,7 @@ PICO builds release notes
 -------------------------
 NOTE1: The manual for the current (latest) version is available in the manual folder.
 
-NOTE2: save / load commands are not supported yet so ALL current builds are compiled with 'no_flash' option (no flashing is required then, just drag & drop in PICO USB emulated disk)
+NOTE2: save / load commands are not supported yet so ALL builds are compiled with 'no_flash' option (no flashing required, just drag & drop in PICO USB emulated disk)
 
 NOTE3: it is assumed that POKE / PEEK will be used to address missing hw features now BUT PEEK / POKE were not heavily tested - use them at your own RISK
 
