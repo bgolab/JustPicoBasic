@@ -36,7 +36,11 @@ Built-in temperature sensor
 ===========================
 	TSENSOR=20
 	pmode 100, TSENSOR
-	for k=1 to 10 print aread(100) pause 500 next k
+	for k=1 to 5 
+		t1k=aread(100) 
+		print t1k/1000,".",t1k%1000,"C"
+		pause 500 
+	next k
 	end
 
 Loops & IFs
