@@ -8,6 +8,10 @@ NOTE3: it is assumed that POKE / PEEK will be used to address missing hw feature
 
 BUILDS
 ------
+1.0b20 - beta release
+- bug fixes & refactoring
+- timestamping enabled for microsecond perf measurement
+
 1.0b19 - beta release
 - error handling improved
 - tracing T1/T2 improved
