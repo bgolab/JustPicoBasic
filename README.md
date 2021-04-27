@@ -54,8 +54,8 @@ Loops & IFs
 	ENDWHILE
 	END
 
-Flexible code format
-====================
+Flexible code format (non line oriented, no indentation required)
+=================================================================
 	m=3 data 2, 3, 4 
 	sum=0 
 	for i=1 to m read a sum=sum+a next i 
