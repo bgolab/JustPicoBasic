@@ -12,6 +12,10 @@ Wiring
 ======
 ![alt text](https://github.com/bgolab/JustBasic/blob/main/manuals/wiring.jpg)
 
+Terminal
+======
+![alt text](https://github.com/bgolab/JustBasic/blob/main/manuals/terminal.png)
+
 Blinky
 =====
 	REM Led-pin 25
