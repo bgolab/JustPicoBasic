@@ -6,7 +6,7 @@ Features:
 - targetted for both PICO and Windows
 - PICO binary is compiled with 'no_flash' flag - just drag & drop the uf2 file to the PICO disk, and run putty
 - BASIC: INT / FLOAT / STRING, arrays, GOSUB & GOTO with labels, FOR / WHILE, IF / ELSE, DATA / READ, PAUSE / GETTICK, math & logical expressions, build-in functions, built-in editor, non line oriented, no indentation, etc
-- hw support: analog / digital read / wite, some OLED modules and Pimoroni Pico Explorer Base (LCD, buttons, piezo)
+- hw support: analog / digita, OLED modules, Pimoroni Pico Explorer Base (LCD, buttons, piezo), etc
 
 Wiring
 ======
