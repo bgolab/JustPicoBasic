@@ -65,4 +65,4 @@ OLED 0.91" SINE
 	end
 
 ---
-Bogdan Golab
+bg
