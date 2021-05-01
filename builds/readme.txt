@@ -10,7 +10,7 @@ NOTE4: it is assumed that POKE / PEEK will be used to address missing hw feature
 
 BUILDS
 ------
-1.0b21 - beta release
+1.0b21b - beta release
 - bug fixes (lcls, sm oled) & refactoring (expr parser for perf)
 
 1.0b20 - beta release
