@@ -10,6 +10,9 @@ NOTE4: it is assumed that POKE / PEEK will be used to address missing hw feature
 
 BUILDS
 ------
+1.0b22 - beta release
+- re-implemented rnd function (now based on ROSC RANDOMBIT with Von Neumann extractor as whitenizer)
+
 1.0b21b - beta release
 - bug fixes (lcls, sm oled) & refactoring (expr parser for perf)
 
