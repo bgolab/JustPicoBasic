@@ -8,8 +8,8 @@ Features:
 - BASIC: INT / FLOAT / STRING, arrays, GOSUB & GOTO with labels, FOR / WHILE, IF / ELSE, DATA / READ, PAUSE / GETTICK, math & logical expressions, build-in functions, built-in editor, non line oriented, no indentation, etc
 - hw support: analog / digital, OLED modules, Pimoroni Pico Explorer Base (LCD, buttons, piezo), etc
 
-Wiring
-======
+Wiring (just RPI PICO, OLED 0.91", EEPROM 24C64)
+================================================
 ![alt text](https://github.com/bgolab/JustBasic/blob/main/manuals/wiring2.png)
 
 Terminal
