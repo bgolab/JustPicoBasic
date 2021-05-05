@@ -10,7 +10,7 @@ Features:
 
 Wiring
 ======
-![alt text](https://github.com/bgolab/JustBasic/blob/main/manuals/wiring.jpg)
+![alt text](https://github.com/bgolab/JustBasic/blob/main/manuals/wiring2.png)
 
 Terminal
 ======
