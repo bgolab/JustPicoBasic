@@ -1,11 +1,12 @@
-PICO builds release notes
--------------------------
 NOTE: All current builds are compiled with 'no_flash' option so no flashing required to try the BASIC, just drag & drop into PICO emulated disk.
 
-BUILDS
-------
+PICO builds release notes
+-------------------------
+1.0b24 - beta release
+- FEATURES: CLI: ed - EEPROM content dump, is - I2C scanner (shows I2C devices connected to both I2C buses)
+
 1.0b23 - beta release
-- FEATURES: s/l (save/load) initial support for EEPROM (24c64) to store BASIC program (auto.bas)
+- FEATURES: CLI: s/l (save/load) initial support for EEPROM (24c64) to store BASIC program (auto.bas)
 
 1.0b22 - beta release
 - FEATURES: re-implemented rnd function (now based on ROSC RANDOMBIT with Von Neumann extractor as whitenizer)
