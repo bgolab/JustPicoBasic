@@ -8,6 +8,9 @@ NOTES
 
 BUILDS
 ------
+1.0b23 - beta release
+- FEATURES: s/l (save/load) initial support for EEPROM (24c64) to store BASIC program (auto.bas)
+
 1.0b22 - beta release
 - FEATURES: re-implemented rnd function (now based on ROSC RANDOMBIT with Von Neumann extractor as whitenizer)
 
