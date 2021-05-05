@@ -2,9 +2,7 @@ PICO builds release notes
 -------------------------
 NOTES
 -----
-- The manual for the current (latest) version is available in the manual folder. See also examples in example folder.
 - All current builds are compiled with 'no_flash' option so no flashing required to try the BASIC, just drag & drop into PICO emulated disk.
-- PEEK & POKE were not heavily tested - use them at your own RISK
 
 BUILDS
 ------
