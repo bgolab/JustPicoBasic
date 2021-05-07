@@ -2,6 +2,9 @@ NOTE: All current builds are compiled with 'no_flash' option so no flashing requ
 
 PICO builds release notes
 -------------------------
+1.0b25 - beta release
+- FIXED: TeraTerm BS to del char also on the screen
+
 1.0b24 - beta release
 - FEATURES: CLI: ed - EEPROM content dump, is - I2C scanner (shows I2C devices connected to both I2C buses)
 
