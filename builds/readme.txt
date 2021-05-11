@@ -2,6 +2,9 @@ NOTE: All current builds are compiled with 'no_flash' option so no flashing requ
 
 PICO builds release notes
 -------------------------
+1.0b27 - beta release
+- FEATURES: NEW lprint syntax (allows mixed expressions of INT/FLOAT/STR)
+
 1.0b26 - beta release
 - FEATURES: removed 'h'/'u'/'e' commands, introduced direct run (single line ad-hoc commands) through 'r' command, renamed plot/draw/circle to lplot/ldraw/lcircle
 
