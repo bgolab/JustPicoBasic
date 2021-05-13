@@ -49,18 +49,16 @@ Built-in temperature sensor
 
 Loops & IFs
 ===========
-	PRINT "IF/THEN/ELSE/ENDIF"
-	a=0
-	WHILE a <= 10
-		IF a%2 = 1 THEN 
-			PRINT "odd" 
-			PRINT a 
-		ELSE 
-			PRINT "even ", a 
-		ENDIF
-		a=a+1
-	ENDWHILE
-	END
+a=0
+WHILE a <= 10
+	IF a > 5 and a%2 = 1 THEN 
+		PRINT a, " is odd and bigger than 5"
+	ELSE 
+		PRINT a, " is even or smaller than 5" 
+	ENDIF
+	a=a+1
+ENDWHILE
+END
 
 Flexible code format (non line oriented, no indentation required)
 =================================================================
