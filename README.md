@@ -47,8 +47,8 @@ Built-in temperature sensor
 	next k
 	end
 
-Loops & IFs
-===========
+WHILE & IF
+==========
 	a=0
 	WHILE a <= 10
 		IF a > 5 and a%2 = 1 THEN 
