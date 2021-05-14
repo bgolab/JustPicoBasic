@@ -2,6 +2,10 @@ NOTE: All current builds are compiled with 'no_flash' option so no flashing requ
 
 PICO builds release notes
 -------------------------
+1.0b29 - beta release
+- FIXED: INPUT broken for float var
+- refactoring for performance and memory usage
+
 1.0b27 - beta release
 - FEATURES: NEW lprint syntax (allows mixed expressions of INT/FLOAT/STR)
 
