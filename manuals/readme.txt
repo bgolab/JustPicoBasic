@@ -2,6 +2,9 @@ NOTE: See also example folder for examples
 
 PICO manual release notes
 -------------------------
+1.0b29
+- just update
+
 1.0b27
 - new lprint syntax added
 
