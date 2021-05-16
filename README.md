@@ -77,7 +77,6 @@ OLED 0.91" SINE
 	lref
 	end
 
----
 Modern variable syntax
 ======================
 	integer a, b, c
