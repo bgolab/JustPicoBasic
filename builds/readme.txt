@@ -2,6 +2,9 @@ NOTE: All current builds are compiled with 'no_flash' option so no flashing requ
 
 PICO builds release notes
 -------------------------
+1.0b32 - beta release
+- FIXED: int expr bug (introduced in 1.0b21 as a result of refactoring), fixed cosmetic OLED issues
+
 1.0b31 - beta release
 - FEATURES: OLED auto-detection added to automatically enable OLED functions.
 
