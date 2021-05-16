@@ -1,13 +1,3 @@
 NOTE: See also example folder for examples
 
-PICO manual release notes
--------------------------
-1.0b29
-- just update
-
-1.0b27
-- new lprint syntax added
-
-1.0b26
-- major manual reorganization
-- update for new LCD syntax, new system commands
+NOTE: the manual content matches the features delivered in binary files(compare version numbers)
