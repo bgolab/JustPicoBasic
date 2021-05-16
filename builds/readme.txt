@@ -2,6 +2,10 @@ NOTE: All current builds are compiled with 'no_flash' option so no flashing requ
 
 PICO builds release notes
 -------------------------
+1.0b30 - beta release
+- tokenizer refactoring
+- FEATURES: DIM multiple arrays declaration; experimental suffixless variable and array declaration (supposed to replace legacy suffix-based variable declaration)
+
 1.0b29 - beta release
 - FIXED: INPUT broken for float var
 - refactoring for performance and memory usage
