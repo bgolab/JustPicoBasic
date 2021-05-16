@@ -78,4 +78,17 @@ OLED 0.91" SINE
 	end
 
 ---
+Modern variable syntax
+======================
+	integer a, b, c
+	a=1 b=2	c=a+b
+	print c
+	float f1, f2, f3
+	f1=1.0 f2=2.0 f3=f1+f2
+	print f3
+	string s1, s2, s3
+	s1="a" s2="b" s3=s1+s2
+	print s3
+	end
+---
 bgolab
