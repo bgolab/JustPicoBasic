@@ -1,8 +1,7 @@
 AUTOMATIC TESTS (executed in Windows environment)
 -----------------------------------------------
-JustBasic-full1.bas, JustBasic-full2.bas - used during regression (automatic) tests
-JustBasic-full1.log, JustBasic-full2.log - tests results (shall match the reference tests results)
-JustBasic-full1.bas, JustBasic-full2.bas - reference tests results
+tested programs: JustBasic-full1.bas, JustBasic-full2.bas, JustBasic-full3.bas
+expected resuts: JustBasic-full1.log, JustBasic-full2.log, JustBasic-full3.log
 
 
 HW MANUAL TESTS (executed on PICO)
