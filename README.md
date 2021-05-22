@@ -89,5 +89,16 @@ Modern variable syntax
 	s1="a" s2="b" s3=s1+s2
 	print s3
 	end
+
+Arrays
+=======
+	string days(7,10)
+	data "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+	for k=0 to 6
+		read days(k)
+	next k
+	for k=0 to 6
+		print days(k)
+	next k
 ---
 bgolab
