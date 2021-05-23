@@ -3,10 +3,7 @@ NOTE: All current builds are compiled with 'no_flash' option so no flashing requ
 PICO builds release notes
 -------------------------
 1.0b35 - beta release
-- bug fixes (for-loop error when TO is lower than index when STEP is greater than 0) & refactoring
-
-1.0b34 - beta release
-- bug fixes (string array to keep asciiz) & refactoring, plus some cosmetic changes
+- bug fixes (for-loop error when TO is lower than index when STEP is greater than 0, string array to keep asciiz) & refactoring
 
 1.0b33 - beta release
 - FEATURES: Two dimensional integer/float arrays (DIM and suffixless syntax supported), string arrays (DIM and suffixless syntax supported), asc() function added
