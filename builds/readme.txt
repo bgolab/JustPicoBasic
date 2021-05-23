@@ -2,6 +2,9 @@ NOTE: All current builds are compiled with 'no_flash' option so no flashing requ
 
 PICO builds release notes
 -------------------------
+1.0b34 - beta release
+- bug fixes & refactoring, plus some cosmetic changes
+
 1.0b33 - beta release
 - FEATURES: Two dimensional integer/float arrays (DIM and suffixless syntax supported), string arrays (DIM and suffixless syntax supported), asc() function added
 
