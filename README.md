@@ -16,25 +16,27 @@ Terminal
 ======
 ![alt text](https://github.com/bgolab/JustBasic/blob/main/manuals/terminal3.png)
 
-Blinky
-=====
-	REM Led-pin 25
+Morse Code - SOS
+================
+	REM Morse Code SOS
+	data 3, 150, 3, 450, 3, 130
 
-	pmode 25, 1
-
-	for k=1 to 10 step 0
-
-		pause 500
-	
-		dwrite 25,1
-	
-		pause 500
-	
-		dwrite 25,0
-	
+	pmode 25,1
+	for k=1 to 3
+		read blinks, duration
+		gosub signal
+		pause 1000
 	next k
-
 	end
+
+	signal:
+		for i=1 to blinks
+			dwrite 25,1
+			pause duration
+			dwrite 25,0
+			pause duration		
+		next i 
+	return
 
 Built-in temperature sensor
 ===========================
