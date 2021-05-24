@@ -36,11 +36,7 @@ PICO builds release notes
 1.0b18 - beta release
 - refactoring for performance
 - FIXED: TeraTerm backspace problem (now both putty & teraterm supported), div by 0 crash (yes, it's true)
-- FEATURES: SM OLED added
-
-1.0b17 - beta release
-- bug fixes + refactoring
-- FEATURES: INT / FIX added, SM framework added, OLED 0.91" 128x32 support added (PLOT, DRAW, CIRCLE, LPRINT, LCLS, LREF)
+- FEATURES: SM OLED added; INT / FIX added, SM framework added, OLED 0.91" 128x32 support added (PLOT, DRAW, CIRCLE, LPRINT, LCLS, LREF)
 
 1.0b11 - first published beta build for PICO RP2040
 - FEATURES: covered by v1.1x manual
