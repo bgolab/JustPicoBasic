@@ -16,12 +16,9 @@ PICO builds release notes
 - FEATURES: OLED auto-detection added to automatically enable OLED functions.
 
 1.0b30 - beta release
-- tokenizer refactoring
 - FEATURES: DIM multiple arrays declaration; experimental suffixless variable and array declaration (supposed to replace legacy suffix-based variable declaration)
-
-1.0b29 - beta release
 - FIXED: INPUT broken for float var
-- refactoring for performance and memory usage
+- refactoring
 
 1.0b27 - beta release
 - FEATURES: NEW lprint syntax (allows mixed expressions of INT/FLOAT/STR)
