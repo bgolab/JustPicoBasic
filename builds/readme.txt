@@ -11,20 +11,15 @@ PICO builds release notes
 
 1.0b32 - beta release
 - FIXED: int expr bug (introduced in 1.0b21 as a result of refactoring), fixed cosmetic OLED issues
-
-1.0b31 - beta release
 - FEATURES: OLED auto-detection added to automatically enable OLED functions.
 
 1.0b30 - beta release
-- FEATURES: DIM multiple arrays declaration; experimental suffixless variable and array declaration (supposed to replace legacy suffix-based variable declaration)
 - FIXED: INPUT broken for float var
+- FEATURES: DIM multiple arrays declaration; experimental suffixless variable and array declaration (supposed to replace legacy suffix-based variable declaration)
 - refactoring
 
 1.0b27 - beta release
-- FEATURES: NEW lprint syntax (allows mixed expressions of INT/FLOAT/STR)
-
-1.0b26 - beta release
-- FEATURES: removed 'h'/'u'/'e' commands, introduced direct run (single line ad-hoc commands) through 'r' command, renamed plot/draw/circle to lplot/ldraw/lcircle
+- FEATURES: NEW lprint syntax; renamed plot/draw/circle to lplot/ldraw/lcircle; removed 'h'/'u'/'e' and introduced direct run through 'r'(ad-hoc command mode)
 - FIXED: TeraTerm BS to del char also on the screen
 
 1.0b24 - beta release
