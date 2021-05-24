@@ -28,8 +28,6 @@ PICO builds release notes
 
 1.0b26 - beta release
 - FEATURES: removed 'h'/'u'/'e' commands, introduced direct run (single line ad-hoc commands) through 'r' command, renamed plot/draw/circle to lplot/ldraw/lcircle
-
-1.0b25 - beta release
 - FIXED: TeraTerm BS to del char also on the screen
 
 1.0b24 - beta release
