@@ -29,10 +29,7 @@ PICO builds release notes
 - FEATURES: re-implemented rnd function (now based on ROSC RANDOMBIT with Von Neumann extractor as whitenizer)
 
 1.0b21b - beta release
-- bug fixes (lcls, sm oled) & refactoring (expr parser for perf)
-
-1.0b20 - beta release
-- bug fixes & refactoring
+- bug fixes (lcls, sm oled) & refactoring (expr parser for perf) & refactoring
 - FEATURES: timestamping enabled for microsecond perf measurement
 
 1.0b19 - beta release
