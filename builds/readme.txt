@@ -23,10 +23,7 @@ PICO builds release notes
 - FIXED: TeraTerm BS to del char also on the screen
 
 1.0b24 - beta release
-- FEATURES: CLI: ed - EEPROM content dump, is - I2C scanner; s/l (save/load) initial support for EEPROM (24c64) to store BASIC program (auto.bas)
-
-1.0b22 - beta release
-- FEATURES: re-implemented rnd function (now based on ROSC RANDOMBIT with Von Neumann extractor as whitenizer)
+- FEATURES: ed(eeprom dump), is(i2c scanner); s/l(save/load) to store startup program in eeprom; re-implemented rnd (now based on ROSC RANDOMBIT with Von Neumann extractor as whitenizer)
 
 1.0b21b - beta release
 - bug fixes (lcls, sm oled) & refactoring (expr parser for perf) & refactoring
