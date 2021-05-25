@@ -2,6 +2,10 @@ NOTE: All current builds are compiled with 'no_flash' option so no flashing requ
 
 PICO builds release notes
 -------------------------
+1.0b36 - beta release
+- FIXED: ldraw issues, t1-t2 to support float variables
+- FEATURES: new ldraw syntax
+
 1.0b35 - beta release
 - FIXED: for-loop error when TO is lower than index, string array to keep asciiz
 - array handling refactoring
