@@ -2,6 +2,10 @@ NOTE: All current builds are compiled with 'no_flash' option so no flashing requ
 
 PICO builds release notes
 -------------------------
+1.0b37 - beta release
+- FIXED: inkey not to return 255 when no key pressed, inkey to work when ESC disabled, 
+- major keyboard handling refactoring
+
 1.0b36 - beta release
 - FIXED: ldraw issues, t1-t2 to support float variables
 - FEATURES: new ldraw syntax
