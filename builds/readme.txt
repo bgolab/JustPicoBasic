@@ -2,32 +2,36 @@ NOTE: All current builds are compiled with 'no_flash' option so no flashing requ
 
 PICO builds release notes
 -------------------------
+1.0b38 - beta release
+- FEATURES: '==' / '!=" C-style condition supported, cli 'cc' added ('sm ln' removed), 'break' supported for for/while-loops
+- cliparser/loopScanner refactored
+
 1.0b37 - beta release
-- FIXED: inkey not to return 255 when no key pressed, inkey to work when ESC disabled, 
+- FIXED: 'inkey' not to return 255 when no key pressed, 'inkey' to work when ESC disabled, 
 - major keyboard handling refactoring
 
 1.0b36 - beta release
-- FIXED: ldraw issues, t1-t2 to support float variables
-- FEATURES: new ldraw syntax
+- FIXED: 'ldraw' issues, 't1-t2' to support float variables
+- FEATURES: new 'ldraw' syntax
 
 1.0b35 - beta release
 - FIXED: for-loop error when TO is lower than index, string array to keep asciiz
 - array handling refactoring
 
 1.0b33 - beta release
-- FEATURES: Two dimensional integer/float arrays (DIM and suffixless syntax supported), string arrays (DIM and suffixless syntax supported), asc() function added
+- FEATURES: Two dimensional integer/float arrays ('DIM' and suffixless syntax supported), string arrays ('DIM' and suffixless syntax supported), asc() function added
 
 1.0b32 - beta release
 - FIXED: int expr bug (introduced in 1.0b21 as a result of refactoring), fixed cosmetic OLED issues
 - FEATURES: OLED auto-detection added to automatically enable OLED functions.
 
 1.0b30 - beta release
-- FIXED: INPUT broken for float var
-- FEATURES: DIM multiple arrays declaration; experimental suffixless variable and array declaration (supposed to replace legacy suffix-based variable declaration)
+- FIXED: 'INPUT' broken for float var
+- FEATURES: 'DIM' multiple arrays declaration; experimental suffixless variable and array declaration (supposed to replace legacy suffix-based variable declaration)
 - refactoring
 
 1.0b27 - beta release
-- FEATURES: NEW lprint syntax; renamed plot/draw/circle to lplot/ldraw/lcircle; removed 'h'/'u'/'e' and introduced direct run through 'r'(ad-hoc command mode)
+- FEATURES: NEW 'lprint' syntax; renamed 'plot/draw/circle' to 'lplot/ldraw/lcircle'; removed 'h'/'u'/'e' and introduced direct run through 'r'(ad-hoc command mode)
 - FIXED: TeraTerm BS to del char also on the screen
 
 1.0b24 - beta release
@@ -44,7 +48,7 @@ PICO builds release notes
 1.0b18 - beta release
 - refactoring for performance
 - FIXED: TeraTerm backspace problem (now both putty & teraterm supported), div by 0 crash (yes, it's true)
-- FEATURES: SM OLED added; INT / FIX added, SM framework added, OLED 0.91" 128x32 support added (PLOT, DRAW, CIRCLE, LPRINT, LCLS, LREF)
+- FEATURES: 'SM OLED' added; 'INT' / 'FIX' added, SM framework added, OLED 0.91" 128x32 support added ('PLOT, DRAW, CIRCLE, LPRINT, LCLS, LREF')
 
 1.0b11 - first published beta build for PICO RP2040
 - FEATURES: covered by v1.1x manual
