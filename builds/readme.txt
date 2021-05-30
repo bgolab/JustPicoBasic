@@ -3,7 +3,7 @@ NOTE: All current builds are compiled with 'no_flash' option so no flashing requ
 PICO builds release notes
 -------------------------
 1.0b39 - beta release
-- FEATURES: built-in const to simplify hw setup(INPUT/OUTPUT,PULLUP/PULLDOWN, ADC/PWM, TSENSOR, HIGH/LOW, ENABLE/DISABLE)
+- FEATURES: built-in const for hw setup readability(INPUT/OUTPUT,PULLUP/PULLDOWN, ADC/PWM, TSENSOR, HIGH/LOW, ENABLE/DISABLE)
 
 1.0b38 - beta release
 - FEATURES: '==' / '!=" C-style condition supported, cli 'cc' added ('sm ln' removed), 'break' supported for for/while-loops
