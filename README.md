@@ -21,7 +21,7 @@ Morse Code - SOS
 	REM Morse Code SOS
 	data 3, 150, 3, 450, 3, 130
 
-	pmode 25,1
+	pmode 25,OUTPUT
 	for k=1 to 3
 		read blinks, duration
 		gosub signal
@@ -31,16 +31,15 @@ Morse Code - SOS
 
 	signal:
 		for i=1 to blinks
-			dwrite 25,1
+			dwrite 25, HIGH
 			pause duration
-			dwrite 25,0
+			dwrite 25,LOW
 			pause duration		
 		next i 
 	return
 
 Built-in temperature sensor
 ===========================
-	TSENSOR=20
 	pmode 100, TSENSOR
 	for k=1 to 5 
 		t1k=aread(100) 
