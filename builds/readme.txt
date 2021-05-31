@@ -2,6 +2,9 @@ NOTE: All current builds are compiled with 'no_flash' option so no flashing requ
 
 PICO builds release notes
 -------------------------
+1.0b40 - beta release
+- FIXED: pwm channel issue for some pins, many cosmetic issues
+
 1.0b39 - beta release
 - FEATURES: built-in const for hw setup readability(INPUT/OUTPUT,PULLUP/PULLDOWN, ADC/PWM, TSENSOR, HIGH/LOW, ENABLE/DISABLE)
 
