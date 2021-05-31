@@ -2,6 +2,10 @@ NOTE: All current builds are compiled with 'no_flash' option so no flashing requ
 
 PICO builds release notes
 -------------------------
+1.0b41 - beta release
+- FIXED: ESC-started lines corrupted the source code 
+- FEATURES: changed the lcls behavior (now clears buffer memory without refreshing the screen)
+
 1.0b40 - beta release
 - FIXED: pwm channel issue for some pins, many cosmetic issues
 
