@@ -2,6 +2,10 @@ NOTE: All current builds are compiled with 'no_flash' option so no flashing requ
 
 PICO builds release notes
 -------------------------
+1.0b42 - beta release
+- FIXED: comma not tokenized when follows constant
+- FEATURES: i2c/uart/spi support framework (experimental), name length increased to 10
+
 1.0b41 - beta release
 - FIXED: ESC-started lines corrupted the source code 
 - FEATURES: changed the lcls behavior (now clears buffer memory without refreshing the screen)
