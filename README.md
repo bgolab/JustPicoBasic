@@ -14,7 +14,7 @@ Wiring (just RPI PICO, OLED 0.91", EEPROM 24C64)
 
 Terminal
 ======
-![alt text](https://github.com/bgolab/JustBasic/blob/main/manuals/terminal4.png)
+![alt text](https://github.com/bgolab/JustBasic/blob/main/manuals/terminal5.png)
 
 Morse Code - SOS
 ================
