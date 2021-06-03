@@ -4,7 +4,7 @@ PICO builds release notes
 -------------------------
 1.0b42 - beta release
 - FIXED: comma not tokenized when follows constant
-- FEATURES: i2c/uart/spi support framework (experimental), name length increased to 10
+- FEATURES: i2c/uart/spi support framework (experimental), name length increased to 10, many cosmetic changes related to terminal
 
 1.0b41 - beta release
 - FIXED: ESC-started lines corrupted the source code 
