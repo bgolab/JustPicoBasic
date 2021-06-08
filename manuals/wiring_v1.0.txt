@@ -1,8 +1,0 @@
-The following schemes were used during the development & testing:
-
-1. For builds versions <=1.0b43 (wiring2.png)
-I2C0(GPIO16, GPIO17): OLED0.91 [address: 0x3C], internal pull-ups resistors of 2x4.7k
-I2C1(GPIO2, GPIO3): EEPROM-C64 [address: 0x50], external pull-ups resistors of 2x10k
-
-2. For build versions 1.0b43NW and 1.0b44 and onward
-I2C0(GPIO4, GPIO5): OLED0.91 [address: 0x3C], EEPROM-C64 [address: 0x50]
