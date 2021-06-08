@@ -10,7 +10,7 @@ Features:
 
 Wiring (just RPI PICO, OLED 0.91", EEPROM 24C64)
 ================================================
-![alt text](https://github.com/bgolab/JustBasic/blob/main/manuals/wiring3.png)
+![alt text](https://github.com/bgolab/JustBasic/blob/main/manuals/wiring/wiring3.png)
 
 Terminal
 ======
