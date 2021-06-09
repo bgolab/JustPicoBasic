@@ -2,8 +2,12 @@ NOTE: All current builds are compiled with 'no_flash' option so no flashing requ
 
 PICO builds release notes
 -------------------------
+1.0b44NW - beta release
+- FIXED: array element to var assignment issue for expr parser(the bug introduced in 1.0b33)
+- FEATURES: New Wiring support(single i2c0 bus for both OLED and EEPROM); i2c/uart/spi to support string as the data buffer for writing
+
 1.0b43NW - beta release
--FEATURES: it's 1.0b43 re-compiled for New Wiring (the one using single i2c0 bus for both EEPROM and OLED)
+- FEATURES: it's 1.0b43 re-compiled for New Wiring (the one using single i2c0 bus for both EEPROM and OLED)
 
 1.0b43 - beta release
 - FIXED/REFACTORED: i2c/spi buffer issues, internal array handling, etc
