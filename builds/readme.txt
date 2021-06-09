@@ -2,6 +2,9 @@ NOTE: All current builds are compiled with 'no_flash' option so no flashing requ
 
 PICO builds release notes
 -------------------------
+1.0b45NW - beta release
+- FIXED: spi to intialize 4 pins
+
 1.0b44NW - beta release
 - FIXED: array element to var assignment issue for expr parser(the bug introduced in 1.0b33)
 - FEATURES: New Wiring support(single i2c0 bus for both OLED and EEPROM); i2c/uart/spi to support string as the data buffer for writing
