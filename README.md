@@ -1,4 +1,4 @@
-JustPicoBasic, a BASIC for RPI PICO RP2040
+JustPicoBasic, a BASIC interpreter for RPI PICO RP2040
 ==========================================
 
 Features:
