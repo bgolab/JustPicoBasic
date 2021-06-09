@@ -1,4 +1,4 @@
-NOTE: All current builds are compiled with 'no_flash' option so no flashing required to try the BASIC, just drag & drop into PICO emulated disk.
+NOTE: All current builds are compiled with 'no_flash' option so no flashing required to try the BASIC, just drag & drop the uf2 image into the PICO emulated disk.
 
 PICO builds release notes
 -------------------------
