@@ -13,14 +13,14 @@ Wiring (just RPI PICO, OLED 0.91", EEPROM 24C64)
 
 Terminal
 ======
-![alt text](https://github.com/bgolab/JustBasic/blob/main/manuals/terminal5.png)
+![alt text](https://github.com/bgolab/JustBasic/blob/main/manuals/terminal6.png)
 
 Morse Code - SOS
 ================
 	REM Morse Code SOS
 	data 3, 150, 3, 450, 3, 130
 
-	pmode 25,OUTPUT
+	pmode 25,OUT
 	for k=1 to 3
 		read blinks, duration
 		gosub signal
