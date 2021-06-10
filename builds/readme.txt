@@ -2,7 +2,7 @@ NOTE: All current builds are compiled with 'no_flash' option so no flashing requ
 
 Known issues
 ------------
--INPUT consts is broken due to collission with INPUT keyword (to be fixed, actually the INPUT/OUTPUT will be renamed to IN/OUT) in 1.0b46NW) 
+-INPUT constant is broken due to collission with INPUT keyword (to be fixed, actually the INPUT/OUTPUT will be renamed to IN/OUT) in 1.0b46NW) 
 workaround: use 0 instead of INPUT
 
 PICO builds release notes
