@@ -1,5 +1,10 @@
 NOTE: All current builds are compiled with 'no_flash' option so no flashing required to try the BASIC, just drag & drop the uf2 image into the PICO emulated disk.
 
+Known issues
+------------
+-INPUT consts is broken due to collission with INPUT keyword (to be fixed, actually the INPUT/OUTPUT will be renamed to IN/OUT) in 1.0b46NW) 
+workaround: use 0 instead of INPUT
+
 PICO builds release notes
 -------------------------
 1.0b45NW - beta release
