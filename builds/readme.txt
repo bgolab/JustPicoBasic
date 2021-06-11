@@ -6,6 +6,10 @@ Known issues
 
 PICO builds release notes
 -------------------------
+1.0b47NW - beta release
+- FIXED: xwrite/xread to return 1 when ready to write or read
+- refactoring
+
 1.0b46NW - beta release
 - FIXED: INPUT constant collided with INPUT keyword - renamed both INPUT/OUTPUT constants to IN/OUT
 
