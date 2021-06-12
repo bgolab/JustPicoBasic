@@ -2,7 +2,7 @@ NOTE: All current builds are compiled with 'no_flash' option so no flashing requ
 
 Known issues
 ------------
-
+- SPI CS timing issue (byte sync problem)
 
 PICO builds release notes
 -------------------------
