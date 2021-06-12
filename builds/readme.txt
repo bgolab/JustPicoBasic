@@ -2,10 +2,13 @@ NOTE: All current builds are compiled with 'no_flash' option so no flashing requ
 
 Known issues
 ------------
-- SPI CS timing issue (byte sync problem)
+
 
 PICO builds release notes
 -------------------------
+1.0b48NW - beta release
+- FIXED: spi csn issue (bad byte sync)
+
 1.0b47NW - beta release
 - FIXED: xwrite/xread to return 1 when ready to write or read
 - refactoring/changes: constants parsing, esc/oled are no longer a const, some cosmetic changes
