@@ -1,0 +1,37 @@
+REM SYSTICK
+SYSTCSR=0xe000e010
+SYSTRVR=0xe000e014
+SYSTCVR=0xe000e018
+poke SYSTCSR, 0
+poke SYSTRVR, 0x1e847
+poke SYSTCSR, 5
+for k=1 to 50
+    print and(peek(SYSTCVR), 0x00FFFFFF)
+    pause 1000
+next k
+end
+#r
+
+Press ESC to break!
+
+55252
+45668
+35918
+27168
+17418
+8668
+124043
+115168
+---
+REM  peek applied to 64-bit counter
+print peek(0x40054008)
+print peek(0x4005400c)
+print gettick()
+end
+#r
+
+Press ESC to break!
+
+0
+1252320910
+1252320
