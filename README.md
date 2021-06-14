@@ -8,8 +8,8 @@ Features:
 - hw support: analog / digital, i2c, uart, spi, OLED 0.91", EEPROM for program storage, etc
 - tested on the standard breadboard (PICO with OLED and EEPROM), and Cytron Maker PI PICO board
 
-Breadboard wiring (RPI PICO, OLED 0.91", EEPROM 24C64)
-======================================================
+Breadboard wiring (PICO, OLED 0.91", EEPROM 24C64)
+==================================================
 ![alt text](https://github.com/bgolab/JustBasic/blob/main/manuals/wiring/wiring3.png)
 
 Terminal
