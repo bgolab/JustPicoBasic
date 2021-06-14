@@ -2,7 +2,7 @@ NOTE: All current builds are compiled with 'no_flash' option so no flashing requ
 
 Known issues
 ------------
-
+- when no EEPROM connected press ESC during the booting phase to skip loading the program from the EEPROM (otherwise the PICO will stuck forever)
 
 PICO builds release notes
 -------------------------
