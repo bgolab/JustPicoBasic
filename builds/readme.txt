@@ -2,10 +2,12 @@ NOTE: All current builds are compiled with 'no_flash' option so no flashing requ
 
 Known issues
 ------------
-- when no EEPROM connected press ESC during the booting phase to skip loading the program from the EEPROM (otherwise the PICO will stuck forever)
 
 PICO builds release notes
 -------------------------
+1.0b50NW - beta release
+-FIXED: PICO stuck at boot when no EEPROM connected, 'ee'/'ed' to check if the EEPROM is available; 'is' replaced with 'is 0|1' to workaround the 'is' stuck issue   
+
 1.0b49NW - beta release
 - refactoring, better error handling (added detection of next-var missmatch, increased parser error verbosity level)
 
