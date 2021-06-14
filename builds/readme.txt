@@ -6,6 +6,9 @@ Known issues
 
 PICO builds release notes
 -------------------------
+1.0b49NW - beta release
+- refactoring, better error handling (added detection of next-var missmatch, increased parser error verbosity level)
+
 1.0b48NW - beta release
 - FIXED: spi csn issue (bad byte sync)
 
