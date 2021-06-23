@@ -5,8 +5,11 @@ Known issues
 
 PICO builds release notes
 -------------------------
+1.0b52NW - beta release
+- FIXED: abs/sgn/val float issues, refactored expr parser and hw code
+
 1.0b51NW - beta release
-- FEATURES: tone/no tone added initial supprt
+- FEATURES: tone/notone added initial support
 
 1.0b50NW - beta release
 -FIXED: PICO stuck at boot when no EEPROM connected, 'ee'/'ed' to check if the EEPROM is available; 'is' replaced with 'is 0|1' to workaround the 'is' stuck issue   
