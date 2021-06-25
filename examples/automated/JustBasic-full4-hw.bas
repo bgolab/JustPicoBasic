@@ -60,4 +60,15 @@ print UWRITABLE(uart1)
 print SREADABLE(spi0)
 print SWRITABLE(spi1)
 
+sm oled enable
+lplot 12,12
+ldraw 1, 1, 12, 12
+lcircle 12, 12, 5
+lprint "Ala" at 12, 12
+lcls
+lref
+
+tone 12, 440
+notone 12 
+
 END
