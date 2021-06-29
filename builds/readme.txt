@@ -5,6 +5,9 @@ Known issues
 
 PICO builds release notes
 -------------------------
+1.0b54NW - beta release
+- PERF: perf improvement in variable parser
+
 1.0b53NW - beta release
 - PERF: perf improvement in expr parsers (int, float, logical)
 
