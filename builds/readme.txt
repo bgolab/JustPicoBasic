@@ -2,6 +2,9 @@ NOTE: All current builds are compiled with 'no_flash' option so no flashing requ
 
 Known issues
 ------------
+1.0b55NW - beta release
+- PERF: perf improvements
+- refactor: name type handling
 
 PICO builds release notes
 -------------------------
