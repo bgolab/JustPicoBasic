@@ -2,12 +2,17 @@ NOTE: All current builds are compiled with 'no_flash' option so no flashing requ
 
 Known issues
 ------------
+
+PICO builds release notes
+-------------------------
+1.0b56NW - beta release
+- PERF: perf improvements, new buil-in perf tools
+- refactor: array handling, error handling
+
 1.0b55NW - beta release
 - PERF: perf improvements
 - refactor: name type handling
 
-PICO builds release notes
--------------------------
 1.0b54NW - beta release
 - PERF: perf improvement in variable parser
 
