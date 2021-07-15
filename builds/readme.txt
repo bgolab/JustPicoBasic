@@ -2,6 +2,7 @@ NOTE: All current builds are compiled with 'no_flash' option so no flashing requ
 
 Known issues
 ------------
+- PICO cannot boot when no startup program; Workaround: use ESC to skip startup program during the boot
 
 PICO builds release notes
 -------------------------
