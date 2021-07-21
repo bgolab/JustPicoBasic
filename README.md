@@ -3,9 +3,9 @@ JustPicoBasic, a BASIC interpreter for RPI PICO RP2040
 
 Features:
 
-- BASIC: INTEGER / FLOAT / STRING data types, arrays, GOSUB & GOTO with labels, FOR & WHILE loops, IF / ELSE conditionals, DATA / READ, PAUSE / GETTICK, math / logical / string expressions, many build-in math functions
+- INTEGER / FLOAT / STRING data types, arrays, GOSUB & GOTO with labels, FOR & WHILE loops, IF / ELSE conditional, DATA / READ, PAUSE / GETTICK, math / logical / string expressions, many build-in math functions
 - built-in editor, flexible formatting (non line oriented, no indentation), etc
-- hw support: analog / digital, i2c, uart, spi, OLED 0.91", EEPROM for program storage, etc
+- hw support: analog / digital, i2c / uart / spi, OLED 0.91", EEPROM for program storage, etc
 - tested on the standard breadboard (PICO with OLED & EEPROM), and Cytron Maker PI PICO board
 
 Breadboard wiring (PICO, OLED 0.91", EEPROM 24C64)
