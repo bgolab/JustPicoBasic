@@ -6,6 +6,9 @@ Known issues
 
 PICO builds release notes
 -------------------------
+1.0b56NW2 - beta release
+-recompiled using SDK 1.2.0 (replaced the SDK 1.1.2)
+
 1.0b56NW - beta release
 - PERF: perf improvements, new buil-in perf tools
 - refactor: array handling, error handling
