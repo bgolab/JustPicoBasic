@@ -9,7 +9,7 @@ NOTE: All current builds are compiled with 'no_flash' option so no flashing requ
 # Release notes for v1.1 builds
 -----------------------------
 1.1b100 - beta release (very early build in the v1.1 line)
-- changes vs v1.0: comletelly re-written 32bit internal architecture (tokens, number storage, etc), improved performance, changed 'sm' syntax, etc
+- changes vs v1.0: comletelly re-written 32bit internal architecture (32bit tokens, 32bit int/float storage, etc), improved performance, changed 'sm' syntax, etc
 
 
 # Release notes for v1.0 builds
