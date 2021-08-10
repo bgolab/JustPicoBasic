@@ -1,16 +1,18 @@
 NOTE: All current builds are compiled with 'no_flash' option so no flashing required to try the BASIC, just drag & drop the uf2 image into the PICO emulated disk.
 
-Known issues
-------------
+
+# Known issues
+--------------
 - PICO cannot boot when no startup program; Workaround: use ESC to skip startup program during the boot
 
-Release notes for v1.1 builds
+
+# Release notes for v1.1 builds
 -----------------------------
-1.1b100 - beta release (very early build)
-- changes vs v1.0: 32bit internal architecture (tokens structure, number storage, etc), improved performance, changed 'sm' syntax, etc
+1.1b100 - beta release (very early build in the v1.1 line)
+- changes vs v1.0: comletelly re-written 32bit internal architecture (tokens, number storage, etc), improved performance, changed 'sm' syntax, etc
 
 
-Release notes for v1.0 builds
+# Release notes for v1.0 builds
 -----------------------------
 1.0b57 - beta release
 - refactoring: variable access, for loop
