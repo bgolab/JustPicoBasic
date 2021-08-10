@@ -45,7 +45,7 @@ end
 ---
 -------------------------
 REM OLED SINE
-sm oled 1
+sm 21
 lcls lref
 sineno=1
 for x=0 to 127
