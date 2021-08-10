@@ -1,7 +1,5 @@
 PRINT "CONSTANTS"
-PRINT IN, ", ", OUT, ", ", PULLUP, ", ", PULLDOWN, ", ", ADC, ", ", PWM, ", ", TSENSOR, ", ", I2C0, ", ", I2C1, ", ", UART0, ", ", UART1, ", ", SPI0, ", ", SPI1
-PRINT HIGH, ", ", LOW, ", ", ENABLE, ", ", DISABLE
-
+PRINT IN, ", ", OUT, ", ", PULLUP, ", ", PULLDOWN, ", ", ADC, ", ", PWM, ", ", TSENSOR, ", ", I2C0, ", ", I2C1, ", ", UART0, ", ", UART1, ", ", SPI0, ", ", SPI1, ", ", HIGH, ", ", LOW
 PRINT " "
 
 PRINT "I2C/UART/SPI PARSER SYNTAX"
@@ -60,7 +58,7 @@ print UWRITABLE(uart1)
 print SREADABLE(spi0)
 print SWRITABLE(spi1)
 
-sm oled enable
+sm 21
 lplot 12,12
 ldraw 1, 1, 12, 12
 lcircle 12, 12, 5
