@@ -1,5 +1,6 @@
-NOTE: All current builds are compiled with 'no_flash' option so no flashing required to try the BASIC, just drag & drop the uf2 image into the PICO emulated disk.
-
+NOTE: 
+1. SRAM ONLY build (without suffix 'flash') are compiled with 'no_flash' option so no flashing required to try the BASIC, just drag & drop the uf2 image into the PICO emulated disk.
+2. FLASH builds (with suffix 'flash) - are targeted for those who want to flash the interpreter to the PICO
 
 # Known issues
 --------------
