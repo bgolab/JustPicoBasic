@@ -1,16 +1,21 @@
-NOTE: 
-1. SRAM ONLY build (without suffix 'flash') are compiled with 'no_flash' option so no flashing required to try the BASIC, just drag & drop the uf2 image into the PICO emulated disk.
-2. FLASH builds (with suffix 'flash) - are targeted for those who want to flash the interpreter to the PICO
+NOTE on released binary files:
+
+1. SRAM builds (NO 'flash' suffix) - compiled with 'no_flash' option, no flashing needed, just drag & drop the image into the PICO emulated disk (ALL these builds are subject to testing now)
+2. FLASH builds (with suffix 'flash) - are targeted for those who want to flash the interpreter to the PICO (those build are not tested now - will do in the future)
+
+
 
 # Known issues
 --------------
 - PICO cannot boot when no startup program; Workaround: use ESC to skip startup program during the boot
 
 
+
 # Release notes for v1.1 builds
 -----------------------------
 1.1b100 - beta release (very early build in the v1.1 line)
 - changes vs v1.0: comletelly re-written 32bit internal architecture (32bit tokens, 32bit int/float storage, etc), improved performance, changed 'sm' syntax, etc
+
 
 
 # Release notes for v1.0 builds
