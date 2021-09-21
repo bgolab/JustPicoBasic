@@ -11,14 +11,17 @@ NOTE on released binary files:
 
 
 
-# Release notes for v1.1 builds
+### Release notes for v1.1 builds ###
 -----------------------------
+1.1b101 - beta release (very early build in the v1.1 line)
+- FEATURES: servo/noservo added support (experimental)
+
 1.1b100 - beta release (very early build in the v1.1 line)
 - changes vs v1.0: comletelly re-written 32bit internal architecture (32bit tokens, 32bit int/float storage, etc), improved performance, changed 'sm' syntax, etc
 
 
 
-# Release notes for v1.0 builds
+### Release notes for v1.0 builds ###
 -----------------------------
 1.0b57 - beta release
 - refactoring: variable access, for loop
