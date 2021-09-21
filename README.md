@@ -5,7 +5,7 @@ Features:
 
 - INTEGER / FLOAT / STRING data types, arrays, GOSUB & GOTO with labels, FOR & WHILE loops, IF / ELSE conditional, DATA / READ, PAUSE / GETTICK, math / logical / string expressions, many build-in math functions
 - built-in editor, flexible formatting (non line oriented, no indentation), etc
-- hw support: analog / digital, i2c / uart / spi, OLED 0.91", EEPROM for program storage, etc
+- hw support: analog / digital, i2c / uart / spi, OLED 0.91", EEPROM for program storage, SERVO, etc
 - tested on the standard breadboard (PICO with OLED & EEPROM), and Cytron Maker PI PICO board
 
 Breadboard wiring (PICO, OLED 0.91", EEPROM 24C64)
