@@ -15,9 +15,11 @@ NOTE on released binary files:
 -----------------------------
 1.1b103 - beta release (very early build in the v1.1 line)
 - moved to SDK 1.3.1
-- FEATURES: DATA - const only supported; improved: INPUT “text”,var; changed STRING/INTEGER/FLOAT syntax to DIM v[,v][AS STRING|INTEGER|FLOAT]; multi-dimensional arrays support;  non-static string and arrays(no-size required); s$=”” to free heap memory; new hw syntax
+- FEATURES: INPUT “text”,var;  multi-dimensional arrays support; s$=”” to free heap memory;
+- CHANGES: DATA - const only; STRING/INTEGER/FLOAT replaced by DIM v[,v][AS STRING|INTEGER|FLOAT]; non-static string & arrays(no-size required); new hw syntax
 - PERF: improved LET and FOR implementation
 - refactoring: heap-packed-string to save memory;
+- FIXED: booting problem when no startup program
 
 1.1b101 - beta release (very early build in the v1.1 line)
 - FEATURES: servo/noservo added support (experimental)
