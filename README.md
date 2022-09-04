@@ -1,7 +1,7 @@
 JustPicoBasic, a BASIC interpreter for RPI PICO RP2040
 ==========================================
 
-Features:
+Features of the v1.1 version:
 
 - INTEGER / FLOAT / STRING data types, arrays, GOSUB & GOTO with labels, FOR & WHILE loops, IF / ELSE conditional, DATA / READ, PAUSE / GETTICK, math / logical / string expressions, many build-in math functions
 - built-in editor, flexible formatting (non line oriented, no indentation), etc
