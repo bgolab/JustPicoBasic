@@ -55,14 +55,14 @@ WHILE & IF
 		IF a > 5 and a%2 = 1 THEN 
 			PRINT a, " is odd and bigger than 5"
 		ELSE 
-			PRINT a, " is even or smaller than 5" 
+			PRINT a, " is even or smaller than 5 or equal to 5" 
 		ENDIF
 		a=a+1
 	ENDWHILE
 	END
 
-Flexible formatting (non line oriented, no indentation required)
-================================================================
+Flexible formatting (non line oriented, no indentation)
+=======================================================
 	m=3 data 2, 3, 4 
 	sum=0 
 	for i=1 to m read a sum=sum+a next i 
