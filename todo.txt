@@ -3,4 +3,5 @@
 - refresh the project home page (pictures)
 - update hw section: waveshare / xiao / lilygo / wio boards
 - define roadmap (LCD / OLED, WiFi, PICO W)
-- leasson learned (Reverse Polish Notation support did not bring substantial perf improvement - the RPN support was removed from 1.1b103 release)
+- lesson learned (Reverse Polish Notation support did not bring substantial perf improvement - the RPN support was removed from 1.1b103 release)
+- automate all manual tests, enhance automated tests scope
