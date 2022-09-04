@@ -1,3 +1,8 @@
+# Known issues
+--------------
+- 1.1b101: PICO cannot boot when no startup program; Workaround: use ESC to skip startup program during the boot; fixed in 1.1b103
+
+
 ### Release notes for v1.1 builds ###
 -----------------------------
 1.1b103 - beta release (will be published soon)
