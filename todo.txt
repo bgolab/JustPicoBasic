@@ -1,7 +1,6 @@
-- review new hw syntax
-- finalize 1.1b103 tests
-- update the manual
-- update examples
+- review new hw syntax and finalize 1.1b103 tests
+- update the manual / examples sections
 - refresh the project home page (pictures)
-- update hw section: waveshare / xiao / lilygo, etc
-- define roadmap
+- update hw section: waveshare / xiao / lilygo / wio boards
+- define roadmap (LCD / OLED, WiFi, PICO W)
+- leasson learned (Reverse Polish Notation support did not bring substantial perf improvement - the RPN support was removed from 1.1b103 release)
