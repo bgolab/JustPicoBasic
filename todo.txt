@@ -5,3 +5,5 @@
 - define roadmap (LCD / OLED, WiFi, PICO W)
 - lesson learned (Reverse Polish Notation support did not bring substantial perf improvement - the RPN support was removed from 1.1b103 release)
 - automate all manual tests, enhance automated tests scope
+- archive 1.0 builds & manuals - switch to 1.1 version only
+- release flash-ready binaries
