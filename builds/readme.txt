@@ -13,6 +13,12 @@ NOTE on released binary files:
 
 ### Release notes for v1.1 builds ###
 -----------------------------
+1.1b103 - beta release (very early build in the v1.1 line)
+- moved to SDK 1.3.1
+- FEATURES: DATA - const only supported; improved: INPUT “text”,var; changed STRING/INTEGER/FLOAT syntax to DIM v[,v][AS STRING|INTEGER|FLOAT]; multi-dimensional arrays support;  non-static string and arrays(no-size required); s$=”” to free heap memory; new hw syntax
+- PERF: improved LET and FOR implementation
+- refactoring: heap-packed-string to save memory;
+
 1.1b101 - beta release (very early build in the v1.1 line)
 - FEATURES: servo/noservo added support (experimental)
 
@@ -27,7 +33,7 @@ NOTE on released binary files:
 - refactoring: variable access, for loop
 
 1.0b56NW2 - beta release
--moved to SDK 1.2.0 (replaced the SDK 1.1.2)
+- moved to SDK 1.2.0 (replaced the SDK 1.1.2)
 
 1.0b56NW - beta release
 - PERF: perf improvements, new buil-in perf tools
