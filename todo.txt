@@ -1,0 +1,5 @@
+-finalize 1.1b103 tests
+-update the manual
+-update examples
+-refresh the project home page
+-update hw section: waveshare / xiao board
