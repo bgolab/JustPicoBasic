@@ -12,7 +12,7 @@ NOTE on released binary files:
 
 ### Release notes for v1.1 builds ###
 -----------------------------
-1.1b103 - beta release
+1.1b103 - beta release (will be published soon)
 - moved to SDK 1.3.1
 - FEATURES: INPUT “text”,var;  multi-dimensional arrays support; s$=”” to free heap memory;
 - CHANGES: DATA - const only; STRING/INTEGER/FLOAT replaced by DIM v[,v][AS STRING|INTEGER|FLOAT]; non-static string & arrays(no-size required); new hw syntax
